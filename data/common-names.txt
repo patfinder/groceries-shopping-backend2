@@ -1,0 +1,253 @@
+
+
++------------------+---------------------------------------------------+
+| categories       | name                                              |
++------------------+---------------------------------------------------+
+| fresh-vegetables | English Cucumber                                  |
+| fresh-vegetables | Green Onion                                       |
+| fresh-vegetables | Celery Stalks                                     |
+| fresh-vegetables | Yellow Onions, 3 lb Bag                           |
+| fresh-vegetables | Roma Tomatoes                                     |
+| fresh-vegetables | Grape Tomatoes                                    |
+| fresh-vegetables | Tomato On The Vine Red (1 Bunch)                  |
+| fresh-vegetables | Broccoli Crown                                    |
+| fresh-vegetables | Lettuce Iceberg                                   |
+| fresh-vegetables | Tomato Beefsteak Red                              |
+| fresh-vegetables | Carrots, 3 lb Bag                                 |
+| fresh-vegetables | Red Peppers                                       |
+| fresh-vegetables | Sweet Baby Peppers (4-Pack)                       |
+| fresh-vegetables | Cauliflower                                       |
+| fresh-vegetables | Sweet Green Peppers                               |
+| fresh-vegetables | Red Onion                                         |
+| fresh-vegetables | Ginger                                            |
+| fresh-vegetables | Zucchini                                          |
+| fresh-vegetables | Sweet Potato                                      |
+| fresh-vegetables | Garlic Bulbs, 3-count                             |
+| fresh-vegetables | Broccoli                                          |
+| fresh-vegetables | Russet Potatoes, 10 lb Bag                        |
+| fresh-vegetables | Naturally Imperfect Mixed Sweet Peppers 2.5lb Bag |
+| fresh-vegetables | Mini Cucumbers                                    |
+| fresh-vegetables | Whole White Mushrooms                             |
+| fresh-vegetables | Colossal Garlic                                   |
+| fresh-vegetables | Asparagus                                         |
+| fresh-vegetables | Sweet Onion                                       |
+| fresh-vegetables | Mini Carrots                                      |
+| fresh-vegetables | Yellow Potato, 10 lb Bag                          |
+| fresh-vegetables | Cucumbers 11 count                                |
+| fresh-vegetables | Romaine Lettuce                                   |
+| fresh-vegetables | Romaine Hearts                                    |
+| fresh-vegetables | Grape Tomato 907G                                 |
+| fresh-vegetables | Cabbage, Green                                    |
+| fresh-vegetables | Mini Carrots, 2 lb                                |
+| fresh-vegetables | Red Field Peppers, 4-Pack                         |
+| fresh-vegetables | Whole Cremini Mushrooms                           |
+| fresh-vegetables | Green Leaf Lettuce                                |
+| fresh-vegetables | Yellow Mini Potatoes                              |
+| fresh-vegetables | White Mushrooms                                   |
+| fresh-vegetables | Kale                                              |
+| fresh-vegetables | Greenhouse Peppers, Orange                        |
+| fresh-vegetables | Organics Whole Cremini Mushrooms                  |
+| fresh-vegetables | Organic Radish Bunched                            |
+| fresh-vegetables | Red Potatoes                                      |
+| fresh-vegetables | Organic Brussel Sprouts                           |
+| fresh-vegetables | Okra (1 pack)                                     |
+| fruit            | Banana                                            |
+| fruit            | Seedless Watermelon                               |
+| fruit            | Pineapple                                         |
+| fruit            | Avocado                                           |
+| fruit            | Mini Seedless Watermelon                          |
+| fruit            | Gala Apple                                        |
+| fruit            | Red Grapefruit                                    |
+| fruit            | Red Dragon Fruit                                  |
+| fruit            | Seedless Green Grapes                             |
+| fruit            | Kent Mangoe In Box                                |
+| fruit            | White Peach                                       |
+| fruit            | Golden Kiwi                                       |
+| fruit            | South Africa Sweet Orange                         |
+| fruit            | Honey Dew                                         |
+| fruit            | Cantaloup                                         |
+| fruit            | Papaya                                            |
+| fruit            | Green Apple                                       |
+| fruit            | Kiwi                                              |
+| fruit            | Sweet Tangerines                                  |
+| fruit            | Foxy Strawberry In Box                            |
+| fruit            | Delicia Avocado                                   |
+| fruit            | Loose Dragon Fruit                                |
+| vegetable        | Green Onion                                       |
+| vegetable        | Crown Broccoli                                    |
+| vegetable        | White Radish                                      |
+| vegetable        | Baby Shanghai Bok Choy                            |
+| vegetable        | Corriander                                        |
+| vegetable        | Mung Bean Sprout                                  |
+| vegetable        | Fresh Napa                                        |
+| vegetable        | Cluster Tomato                                    |
+| vegetable        | Carrots (1 Pack)                                  |
+| vegetable        | Yu Choi Tip                                       |
+| vegetable        | Green Bean (bag)                                  |
+| vegetable        | Loose Eggplant                                    |
+| vegetable        | Organic Black Oyster Mushroom                     |
+| vegetable        | Japanese Sweet Yam (s)                            |
+| vegetable        | Roma Tomato                                       |
+| vegetable        | Baby Bok Choy                                     |
+| vegetable        | Korean Cabbage                                    |
+| vegetable        | Spinach                                           |
+| vegetable        | Lotus Roots                                       |
+| vegetable        | Celery                                            |
+| vegetable        | English Cucumber                                  |
+| vegetable        | Shanghai Bok Choy                                 |
+| vegetable        | Water Cress                                       |
+| fresh-meat       | Yellow Free Run Chicken                           |
+| fresh-meat       | Ground Pork                                       |
+| fresh-meat       | Pork Sice Ribs Clices                             |
+| fresh-meat       | Beef Heel Shank                                   |
+| fresh-meat       | Beef Shank Boneless                               |
+| fresh-meat       | Ground Lean Pork                                  |
+| fresh-meat       | Pork Belly Steak (sliced)                         |
+| fresh-meat       | Chicken Drumsticks                                |
+| fresh-meat       | Boneless Pork Hock (packed)                       |
+| fresh-meat       | Pork Feet                                         |
+| fresh-meat       | Pork Belly                                        |
+| fresh-meat       | Bo Kee Pork Blood                                 |
+| fresh-meat       | Chicken Winglet ?????                             |
+| fresh-meat       | Chicken Breast Boneless                           |
+| fresh-meat       | Beef Flank                                        |
+| fresh-meat       | Ground Beef                                       |
+| fresh-meat       | Boneless Chicken Legs                             |
+| fresh-meat       | Fresh Young Duck                                  |
+| fresh-meat       | Chicken Wings (packed)                            |
+| fresh-meat       | Pork Belly Steak (diced)                          |
+| fresh-meat       | Pork Bone                                         |
+| fresh-meat       | Pork Bones (bag)                                  |
+| fresh-meat       | Pork Neck Bone                                    |
+| dairy            | Sunrise Tofu(700g)                                |
+| dairy            | Ch/food Beancurd Sheet                            |
+| dairy            | Spring Creek Quail Eggs                           |
+| dairy            | Wing Loon Medium Firm Tofu (700 G)                |
+| dairy            | Family Pack Eggs (18pcs)                          |
+| dairy            | Nutri Organics Large Brown Eggs                   |
+| dairy            | Heng Lee Tofu                                     |
+| dairy            | Tenten Dim Sum Pork Bun                           |
+| dairy            | White Extra Large Chicken Egg                     |
+| dairy            | Lactantia P?rfiltre 3 % Milk 4l                   |
+| dairy            | Nutri Extra Large Brown Eggs                      |
+| dairy            | Sunrise Egg Tofu(250g)                            |
+| dairy            | Lactantia P?rfiltre Organic 2 % Milk 2l           |
+| dairy            | Lactantia p?rfiltre Skim Milk 2l                  |
+| dairy            | Beatrice 2% Partly Skimmed Milk                   |
+| dairy            | Hung Wang Fresh Sa Ho Style No                    |
+| dairy            | Hung Wang Won Ton Noodles                         |
+| dairy            | Wingloon Fried Tofu                               |
+| dairy            | Sweetened Soy Beverage                            |
+| dairy            | Genuine Soya Fried Soya Cake                      |
+| dairy            | Wing Hing Fresh Soft Tofu                         |
+| dairy            | Chongga Cut Cabbage Kimchi                        |
+| dairy            | T J Shanghai Style                                |
+| dairy            | Lactantia P?rfiltre Organic 2 % Milk 4l           |
+| seafood          | Live Canadian Lobster                             |
+| seafood          | Fresh Mussel                                      |
+| seafood          | Live Bc Crabs                                     |
+| seafood          | Fresh Whole Squid                                 |
+| seafood          | Us Blue Crab                                      |
+| seafood          | Live Manila Clam                                  |
+| seafood          | Oyster(s)                                         |
+| seafood          | Live Oyster In Shell                              |
+| seafood          | Live Canadian Lobster                             |
+| seafood          | Butterfish                                        |
+| seafood          | Largehead Hairtail                                |
+| seafood          | Live Cherry Stone Clam                            |
+| seafood          | Fresh Spanish Mackerel                            |
+| seafood          | Whole King Fish                                   |
+| seafood          | Fresh Conch                                       |
+| seafood          | Whiting Fish                                      |
+| seafood          | Live Canadian Lobster                             |
+| frozen-food      | Sh Basa Steak                                     |
+| frozen-food      | Shanghai Fried Pork Dumpling                      |
+| frozen-food      | Sh Basa Fillet                                    |
+| frozen-food      | T.t.d.s Pork,leek&egg Dumplin                     |
+| frozen-food      | Coconut Tree Brand Tapioca Noodle                 |
+| frozen-food      | Choripdong Assorted Fried Fish Ball               |
+| frozen-food      | Xiaomei Brown Sugar Boba Ice Cream Bar            |
+| frozen-food      | Shanghai Fried Pork Dumpling                      |
+| frozen-food      | Pfp Frozen Fish Tofu                              |
+| frozen-food      | Frozen Crab Meat                                  |
+| frozen-food      | Imei Green Onion Pancake                          |
+| frozen-food      | Unique Woton Steamed Shrimp Du                    |
+| frozen-food      | T.t.d.s Pork&leek Dumplin                         |
+| frozen-food      | Coconut Tree Sliced Lemongrass                    |
+| frozen-food      | Choysco Frozen Grated Yam 454g                    |
+| frozen-food      | Thai Gold Frozen Headless Shrimp 16/20            |
+| frozen-food      | Wel.pac Soybeans In Pod                           |
+| frozen-food      | New Zealand Green Shell Mussels (800g)            |
+| frozen-food      | O&c Frozen Headless Shrimp 26/30                  |
+| frozen-food      | C/tree Froz/cooked Sweet Corn                     |
+| frozen-food      | O'tasty Pork & Veg. Dumpling                      |
+| frozen-food      | Ferma Mixed Vegetables (3 Way)                    |
+| frozen-food      | Pfp Tofu Fish                                     |
+| frozen-food      | 100% Deluxe Dim Sum Jumbo Wonton -shrimp&pork     |
+| grocery          | Aj Crispy Peanut                                  |
+| grocery          | Free Now Coconut Milk                             |
+| grocery          | Bich Chi Tapioca Rice Stick                       |
+| grocery          | Yam Chips(tomato Flavour)                         |
+| grocery          | Heart Diy Omelet Rice                             |
+| grocery          | Narra White Glutinous Rice                        |
+| grocery          | Old Town White Milk Tea                           |
+| grocery          | Old Town 2in1 Instant White Coffee                |
+| grocery          | Oldtown White Coffee (less Sugar)                 |
+| grocery          | Ligo Mackerel Tomato                              |
+| grocery          | Chin-su Fish Sauce                                |
+| grocery          | Ligo Mackerel Tomato W/chili                      |
+| grocery          | Ligo Mackerel Water W/salt                        |
+| grocery          | Sweet Spaghetti Sauce                             |
+| grocery          | Shatu Sunflower Seeds                             |
+| grocery          | Boy Garlic Cornick                                |
+| grocery          | Top Chili Sriracha Hot Sauce                      |
+| fresh-fruits     | Bananas, Bunch                                    |
+| fresh-fruits     | Strawberries 1LB                                  |
+| fresh-fruits     | Extra Large Green Seedless Grapes                 |
+| fresh-fruits     | Blueberries 1 pint                                |
+| fresh-fruits     | Avocados Bag, 5-Pack                              |
+| fresh-fruits     | Extra Large Red Seedless Grapes                   |
+| fresh-fruits     | Lemon                                             |
+| fresh-fruits     | Cantaloupe                                        |
+| fresh-fruits     | Raspberries 1/2 pint                              |
+| fresh-fruits     | Organic Bananas, Bunch                            |
+| fresh-fruits     | Pineapple                                         |
+| fresh-fruits     | Limes                                             |
+| fresh-fruits     | Navel Orange                                      |
+| fresh-fruits     | Strawberries 2LB                                  |
+| fresh-fruits     | Royal Gala Apples                                 |
+| fresh-fruits     | Avocado                                           |
+| fresh-fruits     | Bartlett Pears                                    |
+| fresh-fruits     | Honeycrisp Apples                                 |
+| fresh-fruits     | Blackberries 1/2 Pint                             |
+| fresh-fruits     | Gala Apples, 4 lb bag                             |
+| fresh-fruits     | Mango                                             |
+| fresh-fruits     | Mandarin, 4 lb bag                                |
+| fresh-fruits     | Raspberry Pint                                    |
+| fresh-fruits     | Mandarin Oranges, 2 lb bag                        |
+| fresh-fruits     | Kiwis                                             |
+| fresh-fruits     | Navel Oranges, 3 lb Bag                           |
+| fresh-fruits     | Granny Smith Apples                               |
+| fresh-fruits     | Ontario Greenhouse-Grown Strawberries             |
+| fresh-fruits     | Blueberries 1/2 pint                              |
+| fresh-fruits     | Ataulfo Mango                                     |
+| fresh-fruits     | Ambrosia Apples                                   |
+| fresh-fruits     | Pink Lady Apples                                  |
+| fresh-fruits     | Mini Seedless Watermelon                          |
+| fresh-fruits     | Plantains, Single                                 |
+| fresh-fruits     | Papaya                                            |
+| fresh-fruits     | Lemons, 2 lb Bag                                  |
+| fresh-fruits     | Navel Oranges Cara Cara, 3 lb Bag                 |
+| fresh-fruits     | Naturally Imperfect Avocados, 3 lb Bag            |
+| fresh-fruits     | Red Delicious Apples                              |
+| fresh-fruits     | Bosc Pears                                        |
+| fresh-fruits     | Durian, Frozen                                    |
+| fresh-fruits     | Naturally Imperfect Limes                         |
+| fresh-fruits     | Red Pummelos                                      |
+| fresh-fruits     | Star Fruit                                        |
+| fresh-fruits     | Santa Claus Melons                                |
+| fresh-fruits     | Organic Lemons, 2 lb bag                          |
+| fresh-fruits     | Autumn Crisp Green Grapes                         |
+| fresh-fruits     | Tangerine                                         |
++------------------+---------------------------------------------------+
+

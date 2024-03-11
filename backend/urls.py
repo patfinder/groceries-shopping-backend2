@@ -18,11 +18,16 @@ from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 
-from backend.products import views
+from backend.products import views as product_views
+from backend.shopping import views as shopping_views
 
 
 router = routers.DefaultRouter()
-router.register(r'products', views.ProductViewSet)
+
+# TODO: use views.api_root
+router.register(r'products', product_views.ProductViewSet)
+router.register(r'common-names', product_views.CommonProductNameViewSet)
+router.register(r'shopping', shopping_views.WishListSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
