@@ -6,7 +6,7 @@ class CommonProductName(models.Model):
     """
     Common product name that can be used to look-up in product list of all markets.
     """
-    name = models.CharField(primary_key=True, max_length=100)
+    name = models.CharField(max_length=100)
     # Another name or a variety
     alter_name = models.CharField(max_length=100)
     categories = models.CharField(max_length=100)
@@ -20,6 +20,7 @@ class CommonProductName(models.Model):
         name = f'{self.name}/{self.alter_name}' \
             if self.alter_name else self.name
         return name
+
 
 class Product(models.Model):
     # id = models.CharField(max_length=200)
@@ -36,10 +37,20 @@ class Product(models.Model):
     old_price = models.FloatField(null=True)
     unit = models.CharField(max_length=20, null=True)
 
-    # class Meta:
-    #     # TODO: This constraint is not need.
-    #     constraints = [
-    #         models.UniqueConstraint(
-    #             fields=['name', 'created_time'], name='unique_name_created_time'
-    #         )
-    #     ]
+    class Meta:
+        # TODO: This constraint is not need.
+        constraints = [
+            models.UniqueConstraint(
+                fields=['retailer', 'sid'], name='unique_retailer_sid'
+            )
+        ]
+
+
+class ProductUpdate(models.Model):
+    product = models.ForeignKey(Product, blank=True, null=False, on_delete=models.CASCADE)
+    sid = models.CharField(max_length=100)
+    retailer = models.CharField(max_length=100)
+    created_time = models.DateTimeField()
+    price = models.FloatField(null=True)
+    unit = models.CharField(max_length=20, null=True)
+
