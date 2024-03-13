@@ -10,16 +10,22 @@
 
 ## Backend
 
+py manage.py shell
+
+```python
+
+# Create user's WishList items
+from backend.products.models import *
+
 WishListItem.Objects.bulk_create([
-    WishListItem(user=1, product=''),
-    WishListItem(user=1, product=''),
-    WishListItem(user=1, product=''),
+    WishListItem(user=1, product='Cabbage'),
+    WishListItem(user=1, product='Cauliflower'),
+    WishListItem(user=1, product='Garlic'),
     WishListItem(user=1, product=''),
     WishListItem(user=1, product=''),
 ])
 
-py manage.py shell
-
+# common-name list
 ar = [
     'Ash gourd',
     'Bitter gourd',
@@ -63,14 +69,27 @@ ar = [
     'Zucchini',
 ]
 
+```
 
-https://stackoverflow.com/questions/17388213/find-the-similarity-metric-between-two-strings
+```sql
 
+-- Copy products from backup table
 
 insert into products_product
     (sid, name, created_time, retailer, categories, image, url, price, old_price, unit, common_name)
 select sid, name, created_time, retailer, categories, image, url, price, old_price, unit, ''
     from products_product1;
+
+```
+
+
+### References
+
+[Python string distance](https://stackoverflow.com/questions/17388213/find-the-similarity-metric-between-two-strings)
+
+
+
+
 
 
 

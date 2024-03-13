@@ -6,10 +6,20 @@ class CommonProductName(models.Model):
     """
     Common product name that can be used to look-up in product list of all markets.
     """
-    name = models.CharField(max_length=100)
+    name = models.CharField(primary_key=True, max_length=100)
+    # Another name or a variety
     alter_name = models.CharField(max_length=100)
     categories = models.CharField(max_length=100)
 
+    class Meta:
+        indexes = [
+            models.Index(fields=['name', 'alter_name']),
+        ]
+
+    def __str__(self) -> str:
+        name = f'{self.name}/{self.alter_name}' \
+            if self.alter_name else self.name
+        return name
 
 class Product(models.Model):
     # id = models.CharField(max_length=200)

@@ -27,6 +27,7 @@ CORS_ALLOWED_ORIGINS = [
 
 
 ## Program features
+
 - Show products list so that user can choose to add to wish-list
 - When user prepare to go shopping
     She open price estimator to see how much it costs her for a specified shopping list
@@ -42,4 +43,8 @@ python manage.py migrate
 
 <!-- Start API server -->
 python manage.py runserver
+
+## Questions
+
+- Can products of different categories have the same name?
 

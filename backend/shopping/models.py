@@ -10,14 +10,16 @@ class WishListItem(models.Model):
     """
     user = models.ForeignKey(User, blank=True, null=True, on_delete=models.CASCADE)
     # Should be a value from CommonProductName
-    product = models.CharField(max_length=100)
+    common_name = models.CharField(max_length=100, null=True)
+    retailer = models.CharField(max_length=100, null=True)
+    product_sid = models.CharField(max_length=100, null=True)
     created_time = models.DateTimeField(blank=True)
     updated_time = models.DateTimeField(blank=True)
 
     class Meta:
         constraints = [
             models.UniqueConstraint(
-                fields=['user', 'product'], name='unique_user_item'
+                fields=['user', 'common_name'], name='unique_user_item'
             )
         ]
 
